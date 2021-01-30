@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background:url("images/ship.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  
+}
+nav{
+    height: 50px;
+    width: 100%;
+    padding: 20px 0;
+}
+.container{
+    width: 1200px;
+    max-width: 85%;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 6px;
+}
+nav ul li a{
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+nav ul li a:hover, a.active{
+    background-color: #E33741;
+    border-radius: 5px;
+}
+.main-content{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 70px;
+    align-items: center;
+}
+.booking-content{
+    color: #fff;
+    width: 100%;
+    float: left;
+    margin-left: 50px;
+}
+.booking-content h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+}
+.booking-form{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    width: 65%;
+    margin-left: 180px;
+}
+.booking-form h3{
+    margin: 10px 0px;
+}
+.booking-form  .input-group{
+    margin: 10px 0;
+}
+.booking-form  .calculations{
+    margin: 10px 0;
+}
+.booking-form  .calculations p{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.booking-form input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #F3F5FF;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+.f-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inp-width{
+    min-width: 300px;
+}
+.plus-minus-btn{
+    color: #3352F2;
+    font-size: 30px;
+    padding: 2px;
+    margin: 10px 5px 0px 0px;
+    word-spacing: 20px;
+}
+.plus-minus-btn span {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: #F3F5FF;
+    display: inline-block;
+    padding: 0px 8px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 8px;
+}
+.booking-form .inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.btn-style{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    background-color:  #E33741;
+    cursor: pointer;
+}
+.custom-button {
+    width: 40px;
+    height: 35px;
+    font-size: 25px;
+    margin-top: 9px;
+    border: none;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.custom-button:focus{
+    outline: 0;
+}
+.amount{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Message */
+#message{
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    width: 65%;
+    margin-left: 180px;
+    height: 400px;
+    padding: 20px 0;
+}
+.border-line{
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    margin: 10px 0;
+}
+#message h1{
+    font-size: 25px;
+    text-align: center;
+    color:green;
+}
+.message-content{
+    padding: 20px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.first-class-ticket, .economy-class-ticket{
+    font-size: 18px;
+}
+/* Empty Form */
+#empty-form{
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    width: 65%;
+    margin-left: 180px;
+    height: 400px;
+    padding: 20px 0;
+}
+#empty-form{
+
+    text-align: center;
+}
+#empty-form h1{
+    color: red;
+    font-size: 20px;
+    margin: 80px 0;
+    
+}
+.go-back-paragraph{
+    margin-top: 20px;
+}
+.go-back{
+    padding: 8px 15px;
+    text-align: center;
+    background-color:#E33741;
+    color: white;
+    border-radius: 4px;
+
+}
+
