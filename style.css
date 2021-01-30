@@ -139,7 +139,7 @@ nav ul li a:hover, a.active{
     margin-top: 9px;
     border: none;
     float: left;
-    margin-right: 10px;
+    margin-right: 8px;
     cursor: pointer;
 }
 .custom-button:focus{
