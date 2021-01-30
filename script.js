@@ -12,7 +12,7 @@ function handleTicketClass(ticket, isIncrease) {
 
   document.getElementById(ticket + "-count").value = newTicketNumber;
 
-  calculateTotal();
+  calculateTotalAmount();
 }
 
 // Ticket Quantity Input Value Count
@@ -23,7 +23,7 @@ function getQuantityValue(ticket) {
 }
 
 // Calculate Total Amount For Tickets
-function calculateTotal() {
+function calculateTotalAmount() {
   const firstClassPrice = getQuantityValue("first");
   const economyClassPrice = getQuantityValue("economy");
 
